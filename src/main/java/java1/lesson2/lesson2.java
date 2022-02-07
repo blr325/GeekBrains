@@ -9,25 +9,25 @@ public class lesson2 {
         System.out.println(isCheckLeapYear(2000));
     }
 
-    public static boolean isCheckLeapYear(int year) {
+    private static boolean isCheckLeapYear(int year) {
         return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 
-    public static boolean checkSum(int a, int b) {
+    private static boolean checkSum(int a, int b) {
         return a + b >= 10 && a + b <= 20;
     }
 
-    public static void checkInt(int a) {
+    private static void checkInt(int a) {
         if (a >= 0) {
             System.out.println("Число положительное");
         } else System.out.println("Число отрицательное");
     }
 
-    public static boolean isCheckInt(int a) {
+    private static boolean isCheckInt(int a) {
         return a < 0;
     }
 
-    public static void printLine(String line, int num) {
+    private static void printLine(String line, int num) {
         for (int i = 1; i <= num; ++i) {
             System.out.println(line + i);
         }
