@@ -1,7 +1,5 @@
 package java2.lesson3;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
 
 public class PhoneBook implements UsePhoneBook {
